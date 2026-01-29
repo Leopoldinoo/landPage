@@ -95,7 +95,7 @@ export default function Home() {
         </div>
       </div>
       <h2 className="text-3xl font-bold text-center my-10 text-black">
-        Leopoldo Automóveis
+        Leopoldo Motors
       </h2>
 
       {/* Loja de Carros */}
@@ -119,7 +119,7 @@ export default function Home() {
               <div key={index} className="bg-gray-100 rounded-2xl overflow-hidden shadow-md flex flex-col">
                 <Image src={carro.img} alt={carro.nome} width={300} height={200} className="object-cover w-full h-48" />
 
-                <div className="p-4"> <h3 className="font-bold text-gray-900">{carro.nome}</h3> <p className="text-sm text-gray-600">{carro.descricao}</p><p className="text-gray-500 text-sm mt-1">{carro.preco}</p>
+                <div className="p-4"> <h3 className="font-bold text-gray-900">{carro.nome}</h3> <p className="text-sm text-gray-600">{carro.descricao}</p><p className="text-green-500 text-sm mt-1">{carro.preco}</p>
                 </div>
 
               </div>
